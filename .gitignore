@@ -142,3 +142,7 @@ cython_debug/
 
 # saved models 
 *.pkl
+
+# dataset files
+*.csv
+*.tgz
