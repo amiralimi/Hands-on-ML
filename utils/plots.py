@@ -35,8 +35,7 @@ def plot_digit(data):
     plt.axis("off")
 
 
-def plot_digits(instances, images_per_row=10, **options):
-    size = 28
+def plot_digits(instances, images_per_row=10, size=28, **options):
     images_per_row = min(len(instances), images_per_row)
     images = [instance.reshape(size, size) for instance in instances]
     n_rows = (len(instances) - 1) // images_per_row + 1
